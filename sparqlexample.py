@@ -10,7 +10,7 @@ Created on Sat Dec 19 21:58:34 2015
 from SPARQLWrapper import SPARQLWrapper,JSON
 import re
 
-sparql=SPARQLWrapper("http://dbpedia.org/sparql")
+sparql=SPARQLWrapper("http://dbpedia.org/sparql") #query the online DBpedia RDF database
 
 def run_query(query):                #query returns triples #json
            # print "query:"+query
